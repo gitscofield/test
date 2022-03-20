@@ -2,11 +2,11 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
-import Tinder  from './vue-tinder'
+import Tinder  from './components/vue-tinder/Tinder.vue'
 
 Vue.config.productionTip = false
 
-// console.log(Tinder)
+console.log(Tinder)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
